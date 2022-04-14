@@ -28,7 +28,7 @@ if(!isset($_SESSION['user']))
 							<?php
 								$s=mysqli_query($con,"select * from tbl_shows where s_id='".$_SESSION['show']."'");
 								$shw=mysqli_fetch_array($s);
-								$d= enter ur name;
+								$d=enter ur name;
 								
 									$t=mysqli_query($con,"select * from tbl_theatre where id='".$shw['theatre_id']."'");
 									$theatre=mysqli_fetch_array($t);
