@@ -31,6 +31,7 @@ include('header.php');
                           </div>
 					</div>
 					<div class="clear"></div>
+					<DIV> CLASS="REMOVE"></DIV>
 				</div>
 				<?php
 				}
