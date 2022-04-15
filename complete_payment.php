@@ -16,6 +16,7 @@ if($otp=="123456")
 else
 {
     $_SESSION['error']="Payment Failed";
+    $_pay="your payment will be return";
 }
 ?>
 <body><table align='center'><tr><td><STRONG>Transaction is being processed,</STRONG></td></tr><tr><td><font color='blue'>Please wait <i class="fa fa-spinner fa-pulse fa-fw"></i>
